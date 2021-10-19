@@ -16,7 +16,7 @@ white = [255, 255, 255]
 
 
 #SET MONITOR
-win = pygame.display.set_mode([800, 600])
+win = pygame.display.set_mode([800, 600], pygame.FULLSCREEN)
 #monitor_res = pygame.display.get_surface().get_size()
 monitor_res = [800, 600]
 pygame.display.set_caption("Zener Card Experiment")
